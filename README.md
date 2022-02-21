@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# <h1 align="center">The One Thing App</h1>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/78912800/154871556-18b4b72c-5a89-4127-aefd-4514c547615c.jpg" width="450"/></p>
+
+## Overview
+
+> Philosophy behind The ONE Thing:
+> <br /> _The most successful people are also the most productive._ <br /><br />
+> Inspired by [The ONE Thing Book](https://www.amazon.com/ONE-Thing-Surprisingly-Extraordinary-Results/dp/1885167776) by Gary W. Keller and Jay Papasan
+
+The One Thing is based on a simple and configurable Pomodoro Timer. It aims to provide user-friendly visuals and a reliable way to track productivity using the Pomodoro Technique.
+
+## User Guide
+
+1. START the App’s timer, when you decide to work on one of your Daily Tasks.
+2. WORK on the task until the Pomodoro Timer chimes.
+3. Take a SHORT BREAK.
+4. After 3 Pomodoros, STOP and THINK about your Focus Question, then take a LONG BREAK.
+
+## Features
+
+- Set a Focus Question
+- Set the Focus Time, Short Break, Long Break
+- Start, Pause, Restart the Timer
+- Circular Countdown Timer updates every minute
+- Customize the appearance: change the colors and font (in-progress)
+- Notifications during the Focus and Break time (in-progress)
+- Improved UX with [giphy rest API](https://developers.giphy.com/docs/api) (in-progress)
+
+## Development
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Tools Used
 
-In the project directory, you can run:
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [react-countdown-circle-timer](https://www.npmjs.com/package/react-native-countdown-circle-timer)
+- [react-icons/fa](https://react-icons.github.io/react-icons/icons?name=fa)
 
-### `npm start`
+## Steps of Development
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Downloaded the React Countdown Circle Timer component in a circle shape with color and progress animation.
+2. Started with Buttons Component:
+- created a Button Component
+- TimerButtons Component:
+  form -> 3 inputs -> create default States -> handleChange -> handleSubmit
+  using Context API to parse the newTimer object
+3. Created the Timer.js: set up the parameters
+4. Imported react icons library -> set up animation button icons
+5. Created Settings.js and created a context in SettingsContext.js   
+   - wrap the <App/> with Context API
+   - set variables
+   - set start, pause, stop (use inside Timer.js) animation function
+   - set restart timer function
+   - set updateExecute function (use inside Settings.js)
+   - set setActiveTimer function
+   - create SettingsButton function
+   - create setCurrentTimer
+   - display the time in the center of Timer (children prop)
+   - parse everything that is going to be used in App
+6. Using Context values/functions:
+   - using timer state in App.js (do not want to display both Timer & Settings)
+   - set up the TimerButtons.js (activeClass, handleClick)
+   - set up Settings button
+   - display the Timer
+   - set up the Timer play/pause/restart buttons
+7. Add useEffect() when the App loads and set up the App with default values
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
