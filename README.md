@@ -1,6 +1,6 @@
 # <h1 align="center">The One Thing App</h1>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/78912800/154871556-18b4b72c-5a89-4127-aefd-4514c547615c.jpg" width="450"/></p>
+[<p align="center"><img src="https://user-images.githubusercontent.com/78912800/154871556-18b4b72c-5a89-4127-aefd-4514c547615c.jpg" width="450"/></p>](https://karolinabodis.github.io/the-one-thing-app/)
 
 ## Overview
 
@@ -9,6 +9,7 @@
 > Inspired by [The ONE Thing Book](https://www.amazon.com/ONE-Thing-Surprisingly-Extraordinary-Results/dp/1885167776) by Gary W. Keller and Jay Papasan
 
 The One Thing is based on a simple and configurable Pomodoro Timer. It aims to provide user-friendly visuals and a reliable way to track productivity using the Pomodoro Technique.
+Click here for [live preview](https://karolinabodis.github.io/the-one-thing-app/).
 
 ## User Guide
 
