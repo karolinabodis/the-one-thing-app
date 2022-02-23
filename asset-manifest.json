@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/the-one-thing-app/static/css/main.1053cf19.css",
+    "main.js": "/the-one-thing-app/static/js/main.3a2c37da.js",
+    "index.html": "/the-one-thing-app/index.html",
+    "main.1053cf19.css.map": "/the-one-thing-app/static/css/main.1053cf19.css.map",
+    "main.3a2c37da.js.map": "/the-one-thing-app/static/js/main.3a2c37da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1053cf19.css",
+    "static/js/main.3a2c37da.js"
+  ]
+}
