@@ -8,7 +8,7 @@
 > <br /> _The most successful people are also the most productive._ <br /><br />
 > Inspired by [The ONE Thing Book](https://www.amazon.com/ONE-Thing-Surprisingly-Extraordinary-Results/dp/1885167776) by Gary W. Keller and Jay Papasan
 
-The One Thing is based on a simple and configurable Pomodoro Timer. It aims to provide user-friendly visuals and a reliable way to track productivity using the Pomodoro Technique.
+The One Thing is based on a simple and configurable Pomodoro Timer. It aims to provide user-friendly visuals and a reliable way to track productivity using the Pomodoro Technique. <br />
 Click here for [live preview](https://karolinabodis.github.io/the-one-thing-app/).
 
 ## User Guide
