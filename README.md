@@ -2,6 +2,20 @@
 
 [<p align="center"><img src="https://user-images.githubusercontent.com/78912800/154871556-18b4b72c-5a89-4127-aefd-4514c547615c.jpg" width="450"/></p>](https://karolinabodis.github.io/the-one-thing-app/)
 
+## Build Setup
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run start
+```
+
 ## Overview
 
 > Philosophy behind The ONE Thing:
